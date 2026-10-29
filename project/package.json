@@ -1,0 +1,13 @@
+{
+  "name": "news-control-point",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "seed": "node seed.js",
+    "queries": "node queries.js"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.8",
+    "sqlite3": "^5.1.7"
+  }
+}
